@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">YikYak</string>
+    
+    <string-array name="posts">
+        <item>Post0</item>
+        <item>Post1</item>
+        <item>Post2</item>
+        <item>Post3</item>
+        <item>Post4</item>
+        <item>Post5</item>
+        <item>Post6</item>
+        <item>Post7</item>
+        <item>Post8</item>
+        <item>Post9</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Hey Mr. Android, are you stuck?  Here, I\'ll clear a path for you.</item>
+        <item>When you come into work dressed as the carpet. I am MORTIFIED.</item>
+        <item>Why am I not surprised that some Trumpster thinks he lives in the Lincoln Memorial?</item>
+        <item>My kid telling me a story..</item>
+        <item>Forgot the word "flyswatter" so I just called it a death spatula!</item>
+        <item>Me" can you help me access my account? I'm locked out?</item>
+        <item>Me" I wonder what happened to the milkman, the paper boy, and evening TV.</item>
+        <item>started being conscious of what I eat and decided to limit myself to one snack a day.</item>
+        <item>Me I wonder what happened to the milkman, the paper boy, and evening TV.</item>
+        <item>started being conscious of what I eat and decided to limit myself to one snack a day.</item>
+        <item>When you come into work dressed as the carpet. I am MORTIFIED.</item>
+    </string-array>
+
+    <string name="map_key" translatable="false">AIzaSyAXog8WCBLqv1D1BdYSoOPC2JUXLmP0REo</string>
+
+</resources>

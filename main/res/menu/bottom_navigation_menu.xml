@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/YakPost"
+        android:icon="@android:drawable/gallery_thumb"
+        android:title="Yaks"/>
+    <item
+        android:id="@+id/GPS"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Nearby"/>
+    <item
+        android:id="@+id/Notifcation"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Notification"/>
+
+</menu>

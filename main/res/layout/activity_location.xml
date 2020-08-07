@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006994"
+    app:rb_color="#cc3300"
+    app:rb_duration="3000"
+    app:rb_radius="50dp"
+    app:rb_rippleAmount="5"
+    app:rb_scale="6">
+
+    <SearchView
+        android:id="@+id/sv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_search"
+        android:elevation="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search.." />
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="301dp"
+        android:layout_height="378dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/google_map"
+        android:layout_margin="50dp">
+
+        <Button
+            android:id="@+id/locate"
+            android:background="@drawable/round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locate"/>
+
+        <Button
+            android:id="@+id/btnRoam"
+            android:background="@drawable/round_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Roam" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/yakRecyclerView"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</com.skyfishjy.library.RippleBackground>
